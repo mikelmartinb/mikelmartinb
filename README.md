@@ -12,7 +12,6 @@ I work on cosmic topology and tests of statistical isotropy, large-scale structu
 
 CMB correlation matrices for a closed universe with the topology of the three-sphere or of a lens space. When space is multiply connected, statistical isotropy is broken: the harmonic-space covariance matrix is no longer diagonal and depends on where the observer sits. Python and Cython, with an example notebook and a script for computing many matrices on a cluster.
 
-- **My role:** I wrote the parallel code that computes the correlation matrices and, with co-authors, the Cython implementation of Wigner d-matrices (half-integer spins, stable up to spins of about 10,000).
 - **Paper:** *Cosmic topology. Part IId. Eigenmodes and correlation matrices of lens spaces*, Martin Barandiaran et al., COMPACT Collaboration (2026), [arXiv:2610.12418](https://arxiv.org/abs/2610.12418).
 
 <!-- CHECK: is wigner_d_jacobi.pyx in this repo the Wigner-d code you plan to release separately? If so, the RS line "will be public by [date]" can say it is already public here. -->
