@@ -1,16 +1,32 @@
-## Hi there 👋
+# Mikel Martin Barandiaran
 
-<!--
-**mikelmartinb/mikelmartinb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+PhD student in theoretical cosmology at the [Instituto de Física Teórica (IFT UAM-CSIC)](https://www.ift.uam-csic.es), Madrid.
 
-Here are some ideas to get you started:
+I work on cosmic topology and tests of statistical isotropy, large-scale structure, the cosmic microwave background and higher-order statistics, on both the theory and the numerical side. I am a core member of the [COMPACT Collaboration](https://github.com/CompactCollaboration), and in the Euclid Collaboration I lead the team working on the cosmic-dipole measurement (Theory Working Group).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Website](https://sites.google.com/view/mikelmartinb/home) · [INSPIRE-HEP](https://inspirehep.net/authors/2703526) · [ORCID](https://orcid.org/0009-0004-8247-9584) · [mikel.martin@uam.es](mailto:mikel.martin@uam.es)
+
+## Code
+
+### [CMB-for-S3](https://github.com/CompactCollaboration/CMB-for-S3) · COMPACT Collaboration
+
+CMB correlation matrices for a closed universe with the topology of the three-sphere or of a lens space. When space is multiply connected, statistical isotropy is broken: the harmonic-space covariance matrix is no longer diagonal and depends on where the observer sits. Python and Cython, with an example notebook and a script for computing many matrices on a cluster.
+
+- **My role:** I wrote the parallel code that computes the correlation matrices and, with co-authors, the Cython implementation of Wigner d-matrices (half-integer spins, stable up to spins of about 10,000).
+- **Paper:** *Cosmic topology. Part IId. Eigenmodes and correlation matrices of lens spaces*, Martin Barandiaran et al., COMPACT Collaboration (2026), [arXiv:2610.12418](https://arxiv.org/abs/2610.12418).
+
+<!-- CHECK: is wigner_d_jacobi.pyx in this repo the Wigner-d code you plan to release separately? If so, the RS line "will be public by [date]" can say it is already public here. -->
+
+### [MorphoMarks](https://github.com/mikelmartinb/MorphoMarks)
+
+Marked power spectra in which the density field is weighted by its local morphology: tidal shear, isotropy, filamentarity and a fractal-dimension estimator. Includes the tools to build the density field and the tidal-tensor eigenvalues, and an example notebook.
+
+- **Paper:** *Weighted Webs: Morphology-Informed Marked Fields*, Martin Barandiaran, Cowell, Alonso, Carrón Duque & García-Bellido (2026), [arXiv:2607.26021](https://arxiv.org/abs/2607.26021).
+
+### [MFs4HPA](https://github.com/mikelmartinb/MFs4HPA)
+
+Minkowski functionals on local patches of the *Planck* CMB map, to test whether the hemispherical power asymmetry also shows up in the morphology of the fluctuations and not only in their variance. The functionals are computed with [Pynkowski](https://github.com/javicarron/pynkowski) (designed for a cluster), and the analysis notebook reproduces the results of the paper.
+
+- **Paper:** *More Than Power: Revisiting the CMB Hemispherical Power Asymmetry with Morphological Descriptors*, Carrón Duque, Martin Barandiaran & Martínez-Arrizabalaga (2026), [arXiv:2603.22449](https://arxiv.org/abs/2603.22449).
+
+<!-- Add the standalone Wigner-d library here once it is released. -->
