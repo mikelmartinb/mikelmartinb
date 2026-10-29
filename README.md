@@ -18,7 +18,7 @@ CMB correlation matrices for a closed universe with the topology of the three-sp
 
 ### [fast_wigner_d](https://github.com/mikelmartinb/fast_wigner_d)
 
-Wigner d- and D-matrices for integer and half-integer spin at any angle, as a small Cython extension with optional OpenMP parallelisation. Half-integer spins are what you need for eigenmodes on the three-sphere, and common recursion-based libraries do not support them. Matrix elements are computed from Jacobi polynomials in log space to avoid overflow, with absolute errors of about 10⁻¹⁴ up to j = 2000 when checked against mpmath. The repository includes tests, an example notebook and benchmarks against spherical, wigner, SciPy and sympy. MIT licence.
+Wigner d- and D-matrices for integer and half-integer spin at any angle, as a small Cython extension with optional OpenMP parallelisation. Half-integer spins are what you need for eigenmodes on the three-sphere, and common recursion-based libraries do not support them. Matrix elements are computed from Jacobi polynomials in log space to avoid overflow, with absolute errors of about 10⁻¹⁴ up to j = 2000 when checked against mpmath. The repository includes tests, an example notebook and benchmarks against spherical, wigner, SciPy and sympy. 
 
 ### [MorphoMarks](https://github.com/mikelmartinb/MorphoMarks)
 
